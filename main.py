@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 
 world = {
@@ -7,7 +8,7 @@ world = {
   "creatorVersion": "2.3.14",
   "schemaName": "Harlowe 3 to JSON",
   "schemaVersion": "0.0.6",
-  "createdAtMs": 1631475181716,
+  "createdAtMs": 1631484567185,
   "passages": [
     {
       "name": "Open Field",
@@ -88,8 +89,14 @@ world = {
       "name": " Abandoned Car",
       "tags": "",
       "id": "4",
-      "text": "You return to what you attempted to flee moments ago. Still panting, you slowly pace around the perimeter until you reach the trunk, which seems to pulsate in your shaky vision. Placing one hand on the hood, it feels almost hot to the touch.\n\nHow did it come to this? \n\nThe snarling has turned into human-like growling, rumbling in your chest. You crumple to the ground in anguish and defeat just as you feel the weight of a searingly hot hand touch the top of your head.\n\n\nTRY AGAIN",
-      "links": [],
+      "text": "You return to what you attempted to flee moments ago. Still panting, you slowly pace around the perimeter until you reach the trunk, which seems to pulsate in your shaky vision. Placing one hand on the hood, it feels almost hot to the touch.\n\nHow did it come to this? \n\nThe snarling has turned into human-like growling, rumbling in your chest. You crumple to the ground in anguish and defeat just as you feel the weight of a searingly hot hand touch the top of your head.\n\n\nTRY AGAIN\n\n[[FORWARD->Open Field]]",
+      "links": [
+        {
+          "linkText": "FORWARD",
+          "passageName": "Open Field",
+          "original": "[[FORWARD->Open Field]]"
+        }
+      ],
       "hooks": [],
       "cleanText": "You return to what you attempted to flee moments ago. Still panting, you slowly pace around the perimeter until you reach the trunk, which seems to pulsate in your shaky vision. Placing one hand on the hood, it feels almost hot to the touch.\n\nHow did it come to this? \n\nThe snarling has turned into human-like growling, rumbling in your chest. You crumple to the ground in anguish and defeat just as you feel the weight of a searingly hot hand touch the top of your head.\n\n\nTRY AGAIN"
     },
@@ -112,8 +119,14 @@ world = {
       "name": " Interstate",
       "tags": "",
       "id": "6",
-      "text": "Your feet hit pavement, your chest heaving. Stopping to turn, you witness the headlights of your abandoned car illuminating the road a good distance in front of you, but the distance between you and the car is tinged with red.\n\nYou feel sickened.\n\nMemories of a foul stench floods your memory and into your conscious, prompting you to lower and shake your head to help clear it. The malicious prescence feels closer than when you entered the field. Too close, even. \n\n\nTRY AGAIN",
-      "links": [],
+      "text": "Your feet hit pavement, your chest heaving. Stopping to turn, you witness the headlights of your abandoned car illuminating the road a good distance in front of you, but the distance between you and the car is tinged with red.\n\nYou feel sickened.\n\nMemories of a foul stench floods your memory and into your conscious, prompting you to lower and shake your head to help clear it. The malicious prescence feels closer than when you entered the field. Too close, even. \n\n\nTRY AGAIN\n\n[[FORWARD->Open Field]]",
+      "links": [
+        {
+          "linkText": "FORWARD",
+          "passageName": "Open Field",
+          "original": "[[FORWARD->Open Field]]"
+        }
+      ],
       "hooks": [],
       "cleanText": "Your feet hit pavement, your chest heaving. Stopping to turn, you witness the headlights of your abandoned car illuminating the road a good distance in front of you, but the distance between you and the car is tinged with red.\n\nYou feel sickened.\n\nMemories of a foul stench floods your memory and into your conscious, prompting you to lower and shake your head to help clear it. The malicious prescence feels closer than when you entered the field. Too close, even. \n\n\nTRY AGAIN"
     },
@@ -161,8 +174,14 @@ world = {
       "name": " Fence",
       "tags": "",
       "id": "9",
-      "text": "You come to a shoddy, natural wood fence that comes to your waist. Unsure of what it's even here for, you attempt to jump the sad excuse of a fence when you feel your shin come in contact with the topmost stick.\n\nFalling headfirst into the soil underneath you, your head bounces off the ground slightly as your legs, victims of exhuastion and stress themselves, hit different parts of that same fence and force your body sideways. Lying in agony with tears forming from frustration, a controlled, steady sound of footsteps approaches from your left.\n\nAshamedly, you cannot even muster the strength to look up as they stop right by your left ear. They slightly shift as the figure raises its dark boot, sharply and forcefully bringing it down with as much otherworldly force as it can muster.\n\n\nTRY AGAIN",
-      "links": [],
+      "text": "You come to a shoddy, natural wood fence that comes to your waist. Unsure of what it's even here for, you attempt to jump the sad excuse of a fence when you feel your shin come in contact with the topmost stick.\n\nFalling headfirst into the soil underneath you, your head bounces off the ground slightly as your legs, victims of exhuastion and stress themselves, hit different parts of that same fence and force your body sideways. Lying in agony with tears forming from frustration, a controlled, steady sound of footsteps approaches from your left.\n\nAshamedly, you cannot even muster the strength to look up as they stop right by your left ear. They slightly shift as the figure raises its dark boot, sharply and forcefully bringing it down with as much otherworldly force as it can muster.\n\n\nTRY AGAIN\n\n[[FORWARD->Open Field]]",
+      "links": [
+        {
+          "linkText": "FORWARD",
+          "passageName": "Open Field",
+          "original": "[[FORWARD->Open Field]]"
+        }
+      ],
       "hooks": [],
       "cleanText": "You come to a shoddy, natural wood fence that comes to your waist. Unsure of what it's even here for, you attempt to jump the sad excuse of a fence when you feel your shin come in contact with the topmost stick.\n\nFalling headfirst into the soil underneath you, your head bounces off the ground slightly as your legs, victims of exhuastion and stress themselves, hit different parts of that same fence and force your body sideways. Lying in agony with tears forming from frustration, a controlled, steady sound of footsteps approaches from your left.\n\nAshamedly, you cannot even muster the strength to look up as they stop right by your left ear. They slightly shift as the figure raises its dark boot, sharply and forcefully bringing it down with as much otherworldly force as it can muster.\n\n\nTRY AGAIN"
     },
@@ -275,8 +294,14 @@ world = {
       "name": " Empty, Bare Doorframe",
       "tags": "",
       "id": "16",
-      "text": "An unattached, solitary doorframe greets you in the center of the clearing.\n\nSlowing to a halt, your confusion leads to frustration. You were told differently- she is said to welcome those that need her. If this couldn't be classified as your time of need, what could?\n\nThe hair on the back of your neck rises, signaling that you're still being hunted. Frantically searching for any sort of options you have as you slightly tremble, you perk up once you recall mutterings of the word \"door\".\n\nAs a harsh wind sporadically rushes in your direction, your feet move before you have any real time to make a decision. They're near.\n\nAs you cross the threshold of the frame with long strides, your shut eyes close, almost painfully. Standing taut with your hands balled by your sides in front of the frame, one lid wrenches in silent prayer as you're greeted with the same scene as before you closed your eyes. \n\nBefore you can react, a single dark palm comes into your line of sight.\n\n\nTRY AGAIN",
-      "links": [],
+      "text": "An unattached, solitary doorframe greets you in the center of the clearing.\n\nSlowing to a halt, your confusion leads to frustration. You were told differently- she is said to welcome those that need her. If this couldn't be classified as your time of need, what could?\n\nThe hair on the back of your neck rises, signaling that you're still being hunted. Frantically searching for any sort of options you have as you slightly tremble, you perk up once you recall mutterings of the word \"door\".\n\nAs a harsh wind sporadically rushes in your direction, your feet move before you have any real time to make a decision. They're near.\n\nAs you cross the threshold of the frame with long strides, your shut eyes close, almost painfully. Standing taut with your hands balled by your sides in front of the frame, one lid wrenches in silent prayer as you're greeted with the same scene as before you closed your eyes. \n\nBefore you can react, a single dark palm comes into your line of sight.\n\n\nTRY AGAIN\n\n[[FORWARD->Open Field]]",
+      "links": [
+        {
+          "linkText": "FORWARD",
+          "passageName": "Open Field",
+          "original": "[[FORWARD->Open Field]]"
+        }
+      ],
       "hooks": [],
       "cleanText": "An unattached, solitary doorframe greets you in the center of the clearing.\n\nSlowing to a halt, your confusion leads to frustration. You were told differently- she is said to welcome those that need her. If this couldn't be classified as your time of need, what could?\n\nThe hair on the back of your neck rises, signaling that you're still being hunted. Frantically searching for any sort of options you have as you slightly tremble, you perk up once you recall mutterings of the word \"door\".\n\nAs a harsh wind sporadically rushes in your direction, your feet move before you have any real time to make a decision. They're near.\n\nAs you cross the threshold of the frame with long strides, your shut eyes close, almost painfully. Standing taut with your hands balled by your sides in front of the frame, one lid wrenches in silent prayer as you're greeted with the same scene as before you closed your eyes. \n\nBefore you can react, a single dark palm comes into your line of sight.\n\n\nTRY AGAIN"
     },
@@ -319,8 +344,14 @@ world = {
       "name": " Shack Exterior",
       "tags": "",
       "id": "19",
-      "text": "Feeling uneasy, you wrench the door to the shack back open to reveal the moonlit field once more. Apparently forgetting you are actively being pursued, you stop to wonder where she might be as you shut the door back behind you. The moonlight is blotted out just above your head, and you open your mouth wide in a silent scream of terror.\n\n\nTRY AGAIN",
-      "links": [],
+      "text": "Feeling uneasy, you wrench the door to the shack back open to reveal the moonlit field once more. Apparently forgetting you are actively being pursued, you stop to wonder where she might be as you shut the door back behind you. The moonlight is blotted out just above your head, and you open your mouth wide in a silent scream of terror.\n\n\nTRY AGAIN\n\n[[FORWARD->Open Field]]",
+      "links": [
+        {
+          "linkText": "FORWARD",
+          "passageName": "Open Field",
+          "original": "[[FORWARD->Open Field]]"
+        }
+      ],
       "hooks": [],
       "cleanText": "Feeling uneasy, you wrench the door to the shack back open to reveal the moonlit field once more. Apparently forgetting you are actively being pursued, you stop to wonder where she might be as you shut the door back behind you. The moonlight is blotted out just above your head, and you open your mouth wide in a silent scream of terror.\n\n\nTRY AGAIN"
     },
@@ -343,14 +374,19 @@ world = {
       "name": " Woman",
       "tags": "",
       "id": "21",
-      "text": "She reveals herself when she senses your need for her. Emerging from the shadows and dust of the musty shack, she comes out brandishing a gentle yet telling smile- you've finally made it.\n\nYou rush forward, hands almost in a frozen begging position stretched in front of you. In response, her arms open to accept you.\n\nAs you gaze at her face in wonder, you stop frantically moving to her once you recognize her eyes as being frigidly devoid of emotion. If anything, they read almost disdainful. \n\nNot wanting to be in her bad graces, you hurriedly attempt to explain who you are, where you came from, and what you've done to warrant her generosity. With a simple wave of her hand, you're silenced.\n\nShe already knows. About your betrayal. About your pain. About your... resentment.\n\nAbout the cadaver in your trunk.\n\nAs she kneels by the hole, she looks up at you expectantly.\n\nIt's almost over.\n\nIn a series of quick motions, you lower yourself smoothly yet with deliberation, hands slightly shaking with a mix of apprehension and excitement. As you settle in, she moves closer- one grimy yet delicate hand moving to cover your eyes. This is the first step, and yet the most difficult. Few have found her, for she only appears to those who truly need her- the price is especially steep.\n\nAs her lips part to form divine words, your vision goes completely dark under the cover of her cold palm.\n\nYou've made it. You're home.",
-      "links": [],
+      "text": "She reveals herself when she senses your need for her. Emerging from the shadows and dust of the musty shack, she comes out brandishing a gentle yet telling smile- you've finally made it.\n\nYou rush forward, hands almost in a frozen begging position stretched in front of you. In response, her arms open to accept you.\n\nAs you gaze at her face in wonder, you stop frantically moving to her once you recognize her eyes as being frigidly devoid of emotion. If anything, they read almost disdainful. \n\nNot wanting to be in her bad graces, you hurriedly attempt to explain who you are, where you came from, and what you've done to warrant her generosity. With a simple wave of her hand, you're silenced.\n\nShe already knows. About your betrayal. About your pain. About your... resentment.\n\nAbout the cadaver in your trunk.\n\nAs she kneels by the hole, she looks up at you expectantly.\n\nIt's almost over.\n\nIn a series of quick motions, you lower yourself smoothly yet with deliberation, hands slightly shaking with a mix of apprehension and excitement. As you settle in, she moves closer- one grimy yet delicate hand moving to cover your eyes. This is the first step, and yet the most difficult. Few have found her, for she only appears to those who truly need her- the price is especially steep.\n\nAs her lips part to form divine words, your vision goes completely dark under the cover of her cold palm.\n\nYou've made it. You're home.\n\n[[FORWARD->Open Field]]",
+      "links": [
+        {
+          "linkText": "FORWARD",
+          "passageName": "Open Field",
+          "original": "[[FORWARD->Open Field]]"
+        }
+      ],
       "hooks": [],
       "cleanText": "She reveals herself when she senses your need for her. Emerging from the shadows and dust of the musty shack, she comes out brandishing a gentle yet telling smile- you've finally made it.\n\nYou rush forward, hands almost in a frozen begging position stretched in front of you. In response, her arms open to accept you.\n\nAs you gaze at her face in wonder, you stop frantically moving to her once you recognize her eyes as being frigidly devoid of emotion. If anything, they read almost disdainful. \n\nNot wanting to be in her bad graces, you hurriedly attempt to explain who you are, where you came from, and what you've done to warrant her generosity. With a simple wave of her hand, you're silenced.\n\nShe already knows. About your betrayal. About your pain. About your... resentment.\n\nAbout the cadaver in your trunk.\n\nAs she kneels by the hole, she looks up at you expectantly.\n\nIt's almost over.\n\nIn a series of quick motions, you lower yourself smoothly yet with deliberation, hands slightly shaking with a mix of apprehension and excitement. As you settle in, she moves closer- one grimy yet delicate hand moving to cover your eyes. This is the first step, and yet the most difficult. Few have found her, for she only appears to those who truly need her- the price is especially steep.\n\nAs her lips part to form divine words, your vision goes completely dark under the cover of her cold palm.\n\nYou've made it. You're home."
     }
   ]
 }
-
 
 def find_current_location(location_label):
 	if "passages" in world:
@@ -367,21 +403,23 @@ def render(current_location, score, moves):
 		print("You are located at the " + str(current_location["name"]))
 		print(current_location["cleanText"] + "\n")
 
+
 def get_input():
 	response = input("Where would you like to go? ")
 	response = response.upper().strip()
 	return response
 
+
 def update(current_location, location_label, response):
 	if response == "":
 		return location_label
 	if "links" in current_location:
-		for links in current_location["links"]:
-			if links["linkText"] == response:
-				return links["passageName"]
-	print("Please try again.")
+		for link in current_location["links"]:
+			if link["linkText"] == response:
+				return link["passageName"]
+	else:
+		print("Please try again.")
 	return location_label
-
 #
 
 location_label = "Open Field"
@@ -400,5 +438,4 @@ while True:
 	current_location = find_current_location(location_label)
 	render(current_location, score, moves)
 	response = get_input()
-
 print("End")
