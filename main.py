@@ -417,8 +417,7 @@ def update(current_location, location_label, response):
 		for link in current_location["links"]:
 			if link["linkText"] == response:
 				return link["passageName"]
-	else:
-		print("Please try again.")
+	print("Please try again.")
 	return location_label
 #
 
@@ -438,4 +437,5 @@ while True:
 	current_location = find_current_location(location_label)
 	render(current_location, score, moves)
 	response = get_input()
+
 print("End")
