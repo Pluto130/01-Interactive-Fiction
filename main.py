@@ -1,3 +1,5 @@
+import sys
+
 world = {
   "uuid": "441AD245-291A-4F37-9326-652F6518621A",
   "name": "Run",
@@ -357,9 +359,13 @@ def find_current_location(location_label):
 				return passage
 	return {}
 
-def render(current_location):
-	print("You are currently at: " + current_location["name"])
-	print(current_location["cleanText"])
+#
+
+def render(current_location, score, moves):
+	if "name" in current_location and "cleanText" in current_location:
+		print("Total moves: " + str(moves) + ", Score: " + str(score))
+		print("You are located at the " + str(current_location["name"]))
+		print(current_location["cleanText"] + "\n")
 
 def get_input():
 	response = input("Where would you like to go? ")
@@ -369,22 +375,30 @@ def get_input():
 def update(current_location, location_label, response):
 	if response == "":
 		return location_label
-	for link in current_location["links"]:
-		if link["linkText"] == response:
-			return link["passageName"]
+	if "links" in current_location:
+		for links in current_location["links"]:
+			if links["linkText"] == response:
+				return links["passageName"]
 	print("Please try again.")
 	return location_label
+
+#
 
 location_label = "Open Field"
 current_location = {}
 response = ""
+score = 0
+moves = 0
 
 while True:
 	if response == "QUIT":
 		break
+	moves =+ 1
+	if "score" in current_location:
+		score = score + current_location["score"]
 	location_label = update(current_location, location_label, response)
 	current_location = find_current_location(location_label)
-	render(current_location)
+	render(current_location, score, moves)
 	response = get_input()
 
 print("End")
