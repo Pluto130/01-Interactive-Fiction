@@ -11,5 +11,6 @@ N/A
 ## Future Development
 Turned in tentatively on 9/12/2021, just in case I cannot fix the error tomorrow.
 Major issues in progression and the update loop.
+\n Update 9/13/2021: No future development; fixed issues
 ## Created by
 Samantha Noel
