@@ -9,6 +9,7 @@ Built using Visual Studio Code, Twine 2.3.14, and Python 3.9.6
 ## References
 N/A
 ## Future Development
-None
+Turned in tentatively on 9/12/2021, just in case I cannot fix the error tomorrow.
+Major issues in progression and the update loop.
 ## Created by
 Samantha Noel
