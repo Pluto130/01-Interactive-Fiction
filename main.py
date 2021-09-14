@@ -14,27 +14,27 @@ world = {
       "name": "Open Field",
       "tags": "",
       "id": "1",
-      "text": "Scurring from your abandoned car on the bleak, shadowed interstate road, you make for the closest corn field to aid in your escape. You hear faint snarling in the distance.\n\n[[WEST-> West Field]]\n[[EAST-> East Field]]\n[[SOUTH-> Abandoned Car]]\n[[NORTH-> North Field]]",
+      "text": "Scurring from your abandoned car on the bleak, shadowed interstate road, you make for the closest corn field to aid in your escape. You hear faint snarling in the distance.\n\n[[WEST->West Field]]\n[[EAST->East Field]]\n[[SOUTH->Abandoned Car]]\n[[NORTH->North Field]]",
       "links": [
         {
           "linkText": "WEST",
           "passageName": "West Field",
-          "original": "[[WEST-> West Field]]"
+          "original": "[[WEST->West Field]]"
         },
         {
           "linkText": "EAST",
           "passageName": "East Field",
-          "original": "[[EAST-> East Field]]"
+          "original": "[[EAST->East Field]]"
         },
         {
           "linkText": "SOUTH",
           "passageName": "Abandoned Car",
-          "original": "[[SOUTH-> Abandoned Car]]"
+          "original": "[[SOUTH->Abandoned Car]]"
         },
         {
           "linkText": "NORTH",
           "passageName": "North Field",
-          "original": "[[NORTH-> North Field]]"
+          "original": "[[NORTH->North Field]]"
         }
       ],
       "hooks": [],
@@ -69,7 +69,7 @@ world = {
       "name": "East Field",
       "tags": "",
       "id": "3",
-      "text": "The Eastmost section of the field. The growling has gotten louder in your right ear, which makes you panic.\n\n\n[[NORTH-> Outhouse]]\n[[WEST-> Northmost Field]]",
+      "text": "The Eastmost section of the field. The growling has gotten louder in your right ear, which makes you panic.\n\n\n[[NORTH->Outhouse]]\n[[WEST->Northmost Field]]",
       "links": [
         {
           "linkText": "NORTH",
@@ -104,7 +104,7 @@ world = {
       "name": "North Field",
       "tags": "",
       "id": "5",
-      "text": "Heading straight for the center of the field, you make a beeline for any signs of the woman you seek- the only one who could possibly understand you. The growling can be heard directly behind you.\n\n[[NORTH-> Northmost Field]]",
+      "text": "Heading straight for the center of the field, you make a beeline for any signs of the woman you seek- the only one who could possibly understand you. The growling can be heard directly behind you.\n\n[[NORTH->Northmost Field]]",
       "links": [
         {
           "linkText": "NORTH",
@@ -134,7 +134,7 @@ world = {
       "name": "Scarecrow",
       "tags": "",
       "id": "7",
-      "text": "After running a fair distance in the field, the sight of a humanoid figure prompts you to stumble slightly in fright. Slowly approaching, you realize that it is a denim overall-donned scarecrow, quietly mocking you for your misplaced panic. Amidst all that's happened, his stoic presence is almost welcoming.\n\nThe growling has gone silent.\n\n[[NORTH-> Fence]]\n[[EAST-> Dirt Path]]",
+      "text": "After running a fair distance in the field, the sight of a humanoid figure prompts you to stumble slightly in fright. Slowly approaching, you realize that it is a denim overall-donned scarecrow, quietly mocking you for your misplaced panic. Amidst all that's happened, his stoic presence is almost welcoming.\n\nThe growling has gone silent.\n\n[[NORTH->Fence]]\n[[EAST->Dirt Path]]",
       "links": [
         {
           "linkText": "NORTH",
@@ -154,7 +154,7 @@ world = {
       "name": "Open Field",
       "tags": "",
       "id": "8",
-      "text": "Moving towards a break in the fields, you stop to catch your breath. Looking around, the area appears to have been shaved in a deliberate circle about 5 meters across. There are still no signs of life or of death.\n\n[[WEST-> Northmost Field]] \n[[NORTH-> Dirt Path]]",
+      "text": "Moving towards a break in the fields, you stop to catch your breath. Looking around, the area appears to have been shaved in a deliberate circle about 5 meters across. There are still no signs of life or of death.\n\n[[WEST->Northmost Field]] \n[[NORTH->Dirt Path]]",
       "links": [
         {
           "linkText": "WEST",
@@ -209,7 +209,7 @@ world = {
       "name": "Widened Dirt Path",
       "tags": "",
       "id": "11",
-      "text": "After running for a while, you finally come to what seems to be a building comprable to a shelter. You almost let out a squeak of joy, but you swallow it down, fearful of the consequences.\n\n[[EAST-> Decrepit Shack]]",
+      "text": "After running for a while, you finally come to what seems to be a building comprable to a shelter. You almost let out a squeak of joy, but you swallow it down, fearful of the consequences.\n\n[[EAST->Decrepit Shack]]",
       "links": [
         {
           "linkText": "EAST",
@@ -224,7 +224,7 @@ world = {
       "name": "Freshly-Dug Hole",
       "tags": "",
       "id": "12",
-      "text": "Deciding to slightly circumvent the road, you soon come upon a shallow, misshapen hole no longer than two meters across. A worn, slightly-rusted shovel pierces the soft earth not too far away. Whoever made this hole must've been in a significant rush.\n\nYou feel a wave of confidence and relief wash over you at this sign of life, prompting you to run faster.\n\n[[NORTH-> Decrepit Shack]]",
+      "text": "Deciding to slightly circumvent the road, you soon come upon a shallow, misshapen hole no longer than two meters across. A worn, slightly-rusted shovel pierces the soft earth not too far away. Whoever made this hole must've been in a significant rush.\n\nYou feel a wave of confidence and relief wash over you at this sign of life, prompting you to run faster.\n\n[[NORTH->Decrepit Shack]]",
       "links": [
         {
           "linkText": "NORTH",
@@ -239,7 +239,7 @@ world = {
       "name": "Decrepit Shack",
       "tags": "",
       "id": "13",
-      "text": "Finally close enough to the small building that you can get as good a look at it as you're able in the pitch darkness, you can see that there are extremely few traces of recent activity- the paint is chipped and the hardware is rusted. Your spirits drop slightly, but you press on.\n\n[[NORTH-> Shack Interior]]",
+      "text": "Finally close enough to the small building that you can get as good a look at it as you're able in the pitch darkness, you can see that there are extremely few traces of recent activity- the paint is chipped and the hardware is rusted. Your spirits drop slightly, but you press on.\n\n[[NORTH->Shack Interior]]",
       "links": [
         {
           "linkText": "NORTH",
@@ -254,7 +254,7 @@ world = {
       "name": "Shack Interior",
       "tags": "",
       "id": "14",
-      "text": "Once you wrestle open the surprisingly hefty door, the scent of freshly snuffed candles overwhelms your senses. Shutting the door with your back, you try and make out any figures as the last sliver of light is extinguished from the crack in the door. As your eyes adjust, you feel someone or something in the room.\n\n[[NORTH-> Precisely Dug Hole]]\n[[SOUTH-> Shack Exterior]]\n[[WEST-> Altar]]",
+      "text": "Once you wrestle open the surprisingly hefty door, the scent of freshly snuffed candles overwhelms your senses. Shutting the door with your back, you try and make out any figures as the last sliver of light is extinguished from the crack in the door. As your eyes adjust, you feel someone or something in the room.\n\n[[NORTH->Precisely Dug Hole]]\n[[SOUTH->Shack Exterior]]\n[[WEST->Altar]]",
       "links": [
         {
           "linkText": "NORTH",
@@ -279,7 +279,7 @@ world = {
       "name": "Northmost Field",
       "tags": "",
       "id": "15",
-      "text": "With no signs of anything or anyone in sight, you begin to feel dread in the pit of your stomach. Your mind races as your breaths become even more ragged.\n\nDid she trick me? Was it all a lie? Did I do all that... for nothing?\n\nTears start to form at the edges of your eyes, threatening to bead and spill.\n\nYou slow slightly once you spot a clearing amongst the crops.\n\n[[NORTH-> Empty, Bare Doorframe]]",
+      "text": "With no signs of anything or anyone in sight, you begin to feel dread in the pit of your stomach. Your mind races as your breaths become even more ragged.\n\nDid she trick me? Was it all a lie? Did I do all that... for nothing?\n\nTears start to form at the edges of your eyes, threatening to bead and spill.\n\nYou slow slightly once you spot a clearing amongst the crops.\n\n[[NORTH->Empty, Bare Doorframe]]",
       "links": [
         {
           "linkText": "NORTH",
@@ -309,7 +309,7 @@ world = {
       "name": "Outhouse",
       "tags": "",
       "id": "17",
-      "text": "The sight of anything other than crops has you excited, until you realize it's only a solitary outhouse. However, the sight of the outhouse door laying haphazardly on the ground next to it sparks concern deep from within.\n\nPeering inside as you slow down to look for clues, you see that it looks unused, yet is still crumbling. The hinges look like they've been frantically ripped from the frame, as if they were searching for something.\n\nThe growling has not changed. You feel distressed.\n\n[[WEST-> Empty, Bare Doorframe]]\n[[NORTH-> Fence]]",
+      "text": "The sight of anything other than crops has you excited, until you realize it's only a solitary outhouse. However, the sight of the outhouse door laying haphazardly on the ground next to it sparks concern deep from within.\n\nPeering inside as you slow down to look for clues, you see that it looks unused, yet is still crumbling. The hinges look like they've been frantically ripped from the frame, as if they were searching for something.\n\nThe growling has not changed. You feel distressed.\n\n[[WEST->Empty, Bare Doorframe]]\n[[NORTH->Fence]]",
       "links": [
         {
           "linkText": "WEST",
@@ -329,7 +329,7 @@ world = {
       "name": "Precisely Dug Hole",
       "tags": "",
       "id": "18",
-      "text": "As you move to the center of the room, you reach a methodically excavated hole in the shack's dirt floor. Vaguely familiar, your heart rate accelerates as you hope you've finally reached what you've been searching so desperately for.\n\nThe soil around the hole appears to have been patted down with a flat instrument, a rusty variety of which are littered around the perimeter.\n\nThe presence seems closer, but you are not afraid. You are comforted.\n\n[[NORTH-> Woman]]",
+      "text": "As you move to the center of the room, you reach a methodically excavated hole in the shack's dirt floor. Vaguely familiar, your heart rate accelerates as you hope you've finally reached what you've been searching so desperately for.\n\nThe soil around the hole appears to have been patted down with a flat instrument, a rusty variety of which are littered around the perimeter.\n\nThe presence seems closer, but you are not afraid. You are comforted.\n\n[[NORTH->Woman]]",
       "links": [
         {
           "linkText": "NORTH",
@@ -359,7 +359,7 @@ world = {
       "name": "Altar",
       "tags": "",
       "id": "20",
-      "text": "Moving straight to the perimeter of the shack you were unable to make out within the darkness, you stumble upon a well-worn wooden altar prominent among the features of the wall.\n\nUpon it you find what appears to be a hand-carved idol that sparks excitement when the form sparks a deep recognition. She must be near. The littered pillar candles of various heights and shades of white and tan is little more than breathtaking to you- the grace of Her inspires warmth from within.\n\nSensing movement, you turn to face the presence that has been near since you entered.\n\n[[NORTH-> Woman]]",
+      "text": "Moving straight to the perimeter of the shack you were unable to make out within the darkness, you stumble upon a well-worn wooden altar prominent among the features of the wall.\n\nUpon it you find what appears to be a hand-carved idol that sparks excitement when the form sparks a deep recognition. She must be near. The littered pillar candles of various heights and shades of white and tan is little more than breathtaking to you- the grace of Her inspires warmth from within.\n\nSensing movement, you turn to face the presence that has been near since you entered.\n\n[[NORTH->Woman]]",
       "links": [
         {
           "linkText": "NORTH",
